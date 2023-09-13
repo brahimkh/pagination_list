@@ -1,6 +1,6 @@
 # pagination_list
 # Pagination list for logically pagination
-```
+``` dart
 /// This method is called when the user scrolls to the end of the list
   /// and the [ScrollController] is listening
   void onListening() {
@@ -24,7 +24,7 @@
 ```
 
 ## Render widget 
-```
+``` dart
 ListView.builder(
           controller: _controller,
           itemCount: itemCount,
